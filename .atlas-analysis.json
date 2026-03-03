@@ -1,0 +1,42 @@
+{
+  "projectType": "saas",
+  "projectName": "Breaking Bad Intro Creator",
+  "projectDescription": "A web-based tool that creates personalized Breaking Bad title sequences with custom text and sends them via email.",
+  "theme": "almond",
+  "primaryColor": "#0F6E3E",
+  "lightColor": "#4CAF50",
+  "darkColor": "#0A4B29",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": ["introduction", "quickstart"]
+      },
+      {
+        "group": "Features",
+        "pages": ["features/customization", "features/resolutions", "features/email-delivery"]
+      },
+      {
+        "group": "Guides",
+        "pages": ["guides/creating-your-intro", "guides/tips-and-tricks"]
+      },
+      {
+        "group": "Support",
+        "pages": ["support/faq", "support/troubleshooting"]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Custom Breaking Bad title sequences with personalized text",
+    "Multiple resolution options (SD, HD, 4K)",
+    "Automated email delivery of generated videos",
+    "Recreation of iconic Breaking Bad intro aesthetic",
+    "Simple web-based interface"
+  ],
+  "publicApiSurface": [
+    "Web form: Title input (Breaking)",
+    "Web form: Title 2 input (Bad)",
+    "Web form: Email address input",
+    "Web form: Resolution selection (SD/HD/4K)"
+  ]
+}
